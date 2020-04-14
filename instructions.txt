@@ -1,0 +1,41 @@
+Workshop instructions:
+************************
+I created a stub class called Rot13Converter and also a Rot13ConverterTest class in the test scope.
+Rot13Converter.class has two methods
+
+ public static char convertChar(char source){...}
+     -> Should be able to take in a char and convert it according to the Rot13 cipher explained below
+
+ public static String convertText(String source){...}
+     -> Should be able to convert whole Strings back and forth.
+
+
+About Rot13
+************************
+Rot13 is a simple letter substitution cipher that divides the alphabet in two parts.
+This cipher has a long history. Read more about it here:
+https://en.wikipedia.org/wiki/ROT13
+
+A B C D E F G H I J K L M
+| | | | | | | | | | | | |
+N O P Q R S T U V W X Y Z
+
+a -> n
+n -> a
+
+m -> z
+z -> m
+
+Characters on top half i shift 13 steps forward
+Characters on bottom half i shift 13 steps backwards
+
+"hello" would translate to "uryyb"
+ALSO
+"uryyb" would translate back to "hello"
+
+ ASCII table resource us here: https://www.ascii-code.com/
+
+If you have need of a translator there is one available online:
+https://www.rot13.com
+
+Tbbq Yhpx!
